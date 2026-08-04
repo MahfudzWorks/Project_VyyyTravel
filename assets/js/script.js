@@ -376,3 +376,15 @@ function showToast(message) {
         setTimeout(() => toast.remove(), 300);
     }, 3000);
 }
+
+const footerContactContainer = document.getElementById('footer-contacts');
+if (footerContactContainer) {
+    footerContactContainer.innerHTML = footerContacts.map(item => `
+        <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 text-slate-400 ${item.hoverColor} transition group">
+            <div class="w-7 h-7 rounded-lg ${item.bgColor} flex items-center justify-center group-hover:text-white transition-all duration-300">
+                ${item.iconSvg}
+            </div>
+            <span class="text-xs md:text-sm font-medium">${item.name}</span>
+        </a>
+    `).join('');
+}
