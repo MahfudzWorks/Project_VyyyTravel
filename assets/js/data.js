@@ -98,18 +98,18 @@ const destinations = [
 ];
 
 const imagePlaceholders = {
-    "assets/images/bromo.jpg": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=800&q=80",
-    "assets/images/ijen.jpg": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=800&q=80",
-    "assets/images/banyuwangi.jpg": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
-    "assets/images/bali.jpg": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
-    "assets/images/jogja.jpg": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80",
-    "assets/images/labuan-bajo.jpg": "https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=800&q=80",
-    "assets/images/raja-ampat.jpg": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
-    "assets/images/dieng.jpg": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-    "assets/images/tumpak-sewu.jpg": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=800&q=80",
-    "assets/images/nusa-penida.jpg": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=800&q=80",
-    "assets/images/rinjani.jpg": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
-    "assets/images/komodo.jpg": "https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=800&q=80"
+  bromo: "assets/images/bromo.jpg",
+  ijen: "assets/images/ijen.jpg",
+  banyuwangi: "assets/images/banyuwangi.jpg",
+  bali: "assets/images/bali.jpg",
+  jogja: "assets/images/jogja.jpg",
+  labuanBajo: "assets/images/labuan-bajo.jpg",
+  rajaAmpat: "assets/images/raja-ampat.jpg",
+  dieng: "assets/images/dieng.jpg",
+  tumpakSewu: "assets/images/tumpak-sewu.jpg",
+  nusaPenida: "assets/images/nusa-penida.jpg",
+  rinjani: "assets/images/rinjani.jpg",
+  komodo: "assets/images/komodo.jpg"
 };
 
 const tourPackages = [
